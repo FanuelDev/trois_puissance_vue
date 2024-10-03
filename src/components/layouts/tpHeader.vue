@@ -29,7 +29,7 @@
         </li>
         <li>
           <router-link to="#">
-            <img src="./assets/images/logo/icon.png" class="img-fluid img-user" alt="" />
+            <img src="/src/assets/images/logo/icon.png" class="img-fluid img-user" alt="" />
           </router-link>
         </li>
       </ul>

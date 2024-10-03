@@ -2,7 +2,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
 @font-face {
   font-family: "Time New Roman";
-  src: url("/assets/font/tnr/tnr-regular.ttf");
+  src: url("/src/assets/font/tnr/tnr-regular.ttf");
 }
 body {
   background-color: #fff !important;

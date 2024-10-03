@@ -79,7 +79,11 @@
 
             <div class="py-5 d-flex justify-content-between">
               <div>
-                <img src="./assets/images/logo/logo-wite.png" class="img-fluid img-logo1" alt="" />
+                <img
+                  src="/src/assets/images/logo/logo-wite.png"
+                  class="img-fluid img-logo1"
+                  alt=""
+                />
               </div>
               <div>
                 <a href="#" class="a1"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>

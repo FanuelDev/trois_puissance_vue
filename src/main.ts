@@ -1,4 +1,4 @@
-// import './assets/main.css'
+// import '/src/assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -11,7 +11,7 @@ import 'element-plus/dist/index.css';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap';
-import './assets/styles/css/main.css'
+import '/src/assets/styles/css/main.css'
 
 
 const app = createApp(App)

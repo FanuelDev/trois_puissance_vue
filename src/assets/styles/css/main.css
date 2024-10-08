@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 75vw !important;
+  max-width: 80vw !important;
 }
 
 .title {
@@ -121,6 +121,18 @@ body {
   color: #fff !important;
   transition: all ease-in-out 0.5s;
 }
+.btn.btn-outline-primary {
+  border-color: #8d4e56;
+  border-radius: 0px;
+  color: #8d4e56 !important;
+  font-weight: 600;
+  transition: all ease-in-out 0.5s;
+}
+.btn.btn-outline-primary:hover {
+  background-color: #401C22 !important;
+  color: #fff !important;
+  transition: all ease-in-out 0.5s;
+}
 .btn.btn-light {
   background-color: #fff;
   border-color: #fff;
@@ -153,6 +165,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.big-size {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.boutique {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boutique img {
+  height: 420px;
 }
 
 .head {
@@ -276,12 +305,35 @@ body {
   box-shadow: none;
 }
 
+.img-prod {
+  width: 45%;
+}
+
+.brd-left {
+  border-left: 3px solid rgba(141, 78, 86, 0.5);
+}
+
+.brd-leftes {
+  border-left: 15px solid #8d4e56;
+}
+
+.brd-white {
+  border-left: 10px solid #fff;
+}
+
 .input1 {
   border-radius: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
   border-bottom: 1px solid #8d4e56;
+  font-size: 13px;
+}
+.input1::-moz-placeholder {
+  font-size: 13px;
+}
+.input1::placeholder {
+  font-size: 13px;
 }
 .input1:focus {
   border: none;

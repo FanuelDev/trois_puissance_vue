@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <div class="text-center">
-      <h1 class="title head text-white text-center">
+      <h1 class="title fw-900 head text-white text-center">
         Explorez <br />
         l'univers infini du vin
       </h1>

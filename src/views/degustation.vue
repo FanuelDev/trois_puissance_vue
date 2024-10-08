@@ -1,7 +1,7 @@
 <template>
   <div class="banner1"></div>
   <div class="bg-primary p-4">
-    <h2 class="text-center text-white title">DEGUSTATION</h2>
+    <h2 class="text-center text-white title fw-bold">DEGUSTATION</h2>
   </div>
 
   <section class="top container">

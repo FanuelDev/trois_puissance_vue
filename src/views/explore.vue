@@ -3,7 +3,7 @@
 
   <section class="bg-white">
     <div class="container py-5">
-      <h2 class="text-center title">EXPLOREZ L'ART DU VIN</h2>
+      <h2 class="text-center title fw-bold">EXPLOREZ L'ART DU VIN</h2>
       <p class="text-center">Derniers avis premium</p>
       <div class="row">
         <div class="col-md-10 offset-md-1">

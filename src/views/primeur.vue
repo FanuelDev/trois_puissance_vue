@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-md-12 p-4 d-flex justify-content-center">
         <div class="text-center">
-          <h1 class="title text-primary">PRIMEURS</h1>
+          <h1 class="title text-primary fw-bold">PRIMEURS</h1>
           <p class="text-center">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eum accusamus aliquid
             voluptates? Sint ab deserunt autem omnis, tenetur accusantium animi labore, enim quidem

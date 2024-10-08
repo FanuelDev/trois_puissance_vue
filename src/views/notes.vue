@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-md-12 p-4">
         <div class="text-center border-pri">
-          <h1 class="title text-primary">NOTES</h1>
+          <h1 class="title text-primary fw-bold">NOTES</h1>
         </div>
         <div class="py-4 border-pri">
           <p class="text-center">

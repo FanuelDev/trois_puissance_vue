@@ -1,7 +1,7 @@
 <template>
   <div class="banner2">
     <div class="bg-banner">
-      <h2 class="text-center text-white title">CLUBS</h2>
+      <h2 class="text-center text-white title fw-bold">CLUBS</h2>
     </div>
   </div>
 

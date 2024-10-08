@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    max-width: 75vw !important;
+    max-width: 80vw !important;
   }
 
 .title {
@@ -138,6 +138,22 @@ body {
         }
     }
 
+    
+    &.btn-outline-primary {
+        // background-color: $primary !important;
+        border-color: $primary;
+        border-radius: 0px;
+        color: $primary !important;
+        font-weight: 600;
+        transition: all ease-in-out 0.5s;
+
+        &:hover {
+            background-color: $primar !important;
+            color: $white !important;
+            transition: all ease-in-out 0.5s;
+        }
+    }
+
     &.btn-light {
         background-color: $white;
         border-color: $white;
@@ -174,6 +190,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.big-size {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.boutique {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 420px;
+    }
 }
 
 .head {
@@ -304,12 +338,33 @@ body {
     }
 }
 
+.img-prod {
+    width: 45%;
+}
+
+.brd-left {
+  border-left: 3px solid rgba($primary, 0.5);
+}
+
+.brd-leftes {
+    border-left: 15px solid $primary;
+}
+
+.brd-white {
+    border-left: 10px solid $white;
+}
+
 .input1 {
     border-radius: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
     border-bottom: 1px solid $primary;
+    font-size: 13px;
+
+    &::placeholder {
+        font-size: 13px;
+    }
 
     &:focus {
         border: none;

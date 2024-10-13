@@ -1,12 +1,12 @@
 version: "3"
 
 services:
-    # kidole:
-    kidole:
-      container_name: kidole
+    # trois_puissance:
+    trois_puissance:
+      container_name: trois_puissance
       #hostname: dp-senyo
       # image: esmc-web:v1
-      # image: perce26/entrersortie:kidole
+      # image: perce26/entrersortie:trois_puissance
       build:
         context: .
         dockerfile: Dockerfile

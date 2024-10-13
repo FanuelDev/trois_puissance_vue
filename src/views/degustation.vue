@@ -9,7 +9,7 @@
       <div class="col-md-6 p-4 d-flex justify-content-center">
         <div class="text-justify">
           <h1 class="title text-primary">Le comité de Dégustation</h1>
-          <p class="text-justify">
+          <p class="text-justify title">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eum accusamus aliquid
             voluptates? Sint ab deserunt autem omnis, tenetur accusantium animi labore, enim quidem
             unde fugit ipsum fugiat voluptatum iure! Lorem ipsum dolor sit amet consectetur
@@ -17,7 +17,7 @@
             consectetur adipisicing elit. Eum qui vitae nobis! Quasi exercitationem laboriosam eum,
             qui ipsam aliquam rem vel nam culpa maiores ipsum.
           </p>
-          <p class="text-justify">
+          <p class="text-justify title">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eum accusamus aliquid
             voluptates? Sint ab deserunt autem omnis, tenetur accusantium animi labore, enim quidem
             unde fugit ipsum fugiat voluptatum iure! Lorem ipsum dolor sit amet consectetur
@@ -25,7 +25,7 @@
             consectetur adipisicing elit. Eum qui vitae nobis! Quasi exercitationem laboriosam eum,
             qui ipsam aliquam rem vel nam culpa maiores ipsum.
           </p>
-          <p class="text-justify">
+          <p class="text-justify title">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eum accusamus aliquid
             voluptates? Sint ab deserunt autem omnis, tenetur accusantium animi labore, enim quidem
             unde fugit ipsum fugiat voluptatum iure! Lorem ipsum dolor sit amet consectetur
@@ -33,7 +33,7 @@
             consectetur adipisicing elit. Eum qui vitae nobis! Quasi exercitationem laboriosam eum,
             qui ipsam aliquam rem vel nam culpa maiores ipsum.
           </p>
-          <p class="text-justify">
+          <p class="text-justify title">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eum accusamus aliquid
             voluptates? Sint ab deserunt autem omnis, tenetur accusantium animi labore, enim quidem
             unde fugit ipsum fugiat voluptatum iure! Lorem ipsum dolor sit amet consectetur
@@ -41,7 +41,7 @@
             consectetur adipisicing elit. Eum qui vitae nobis! Quasi exercitationem laboriosam eum,
             qui ipsam aliquam rem vel nam culpa maiores ipsum.
           </p>
-          <p class="text-justify">
+          <p class="text-justify title">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eum accusamus aliquid
             voluptates? Sint ab deserunt autem omnis, tenetur accusantium animi labore, enim quidem
             unde fugit ipsum fugiat voluptatum iure! Lorem ipsum dolor sit amet consectetur
@@ -49,7 +49,7 @@
             consectetur adipisicing elit. Eum qui vitae nobis! Quasi exercitationem laboriosam eum,
             qui ipsam aliquam rem vel nam culpa maiores ipsum.
           </p>
-          <p class="text-justify">
+          <p class="text-justify title">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque eum accusamus aliquid
             voluptates? Sint ab deserunt autem omnis, tenetur accusantium animi labore, enim quidem
             unde fugit ipsum fugiat voluptatum iure! Lorem ipsum dolor sit amet consectetur

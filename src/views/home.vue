@@ -39,7 +39,147 @@
 
   <section class="mt-5 bg-light">
     <div class="container py-5">
-      <div class="col-md-12"></div>
+      <div class="col-md-12">
+        <carousel :items-to-show="3" :autoplay="5000">
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/1.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/2.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/3.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/1.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/2.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/3.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/1.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/2.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/3.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/1.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/2.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+          <slide>
+            <div class="p-4 mx-5">
+              <img src="/src/assets/images/carousel/3.jpg" class="img-fluid" alt="" />
+              <h5 class="italic text-primary title mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis,
+                perspiciatis asperiores quibusdam officiis aperiam recusandae, autem doloremque
+                quaerat tempore laborum, totam porro ipsum soluta eaque blanditiis nam tenetur
+                minus!
+              </h5>
+            </div>
+          </slide>
+
+          <template #addons>
+            <navigation />
+            <pagination />
+          </template>
+        </carousel>
+      </div>
     </div>
   </section>
 
@@ -67,5 +207,17 @@
   </section>
 </template>
 
-<script></script>
+<script>
+import 'vue3-carousel/dist/carousel.css'
+import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+
+export default {
+  components: {
+    Carousel,
+    Slide,
+    Pagination,
+    Navigation
+  }
+}
+</script>
 

@@ -207,7 +207,7 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 

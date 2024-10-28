@@ -1,7 +1,7 @@
 <template>
   <div class="banner1"></div>
 
-  <section class="bg-white">
+  <section data-aos="fade-up" class="bg-white">
     <div class="container py-5">
       <h2 class="text-center title fw-bold">EXPLOREZ L'ART DU VIN</h2>
       <p class="text-center">Derniers avis premium</p>

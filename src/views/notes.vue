@@ -1,7 +1,7 @@
 <template>
   <div class="banner1"></div>
 
-  <section class="top container">
+  <section data-aos="fade-up" class="top container">
     <div class="row">
       <div class="col-md-12 p-4">
         <div class="text-center border-pri">
@@ -79,7 +79,7 @@
     </div>
   </section>
 
-  <section class="top">
+  <section data-aos="fade-up" class="top">
     <div class="container">
       <div class="row">
         <div class="col-md-6 offset-md-3">

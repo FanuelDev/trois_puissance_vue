@@ -8,6 +8,7 @@ import Explore from '@/views/explore.vue';
 import Degustation from '@/views/degustation.vue';
 import Club from '@/views/club.vue';
 import Boutique from '@/views/boutique.vue';
+import Actualite from '@/views/actualite.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -55,6 +56,11 @@ const router = createRouter({
           path: 'boutique',
           name: 'boutique',
           component: Boutique
+        },
+        {
+          path: 'actualite',
+          name: 'actualite',
+          component: Actualite
         },
       ]
     }

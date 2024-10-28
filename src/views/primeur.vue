@@ -1,7 +1,7 @@
 <template>
   <div class="banner1"></div>
 
-  <section class="top container">
+  <section data-aos="fade-up" class="top container">
     <div class="row">
       <div class="col-md-12 p-4 d-flex justify-content-center">
         <div class="text-center">

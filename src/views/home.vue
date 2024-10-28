@@ -9,7 +9,7 @@
     </div>
   </div>
 
-  <section class="top container">
+  <section data-aos="fade-up" class="top container">
     <div class="row">
       <div class="col-md-6 p-4">
         <div class="extra">
@@ -37,7 +37,7 @@
     </div>
   </section>
 
-  <section class="mt-5 bg-light">
+  <section data-aos="fade-up" class="mt-5 bg-light">
     <div class="container py-5">
       <div class="col-md-12">
         <carousel :items-to-show="3" :autoplay="5000">
@@ -183,7 +183,7 @@
     </div>
   </section>
 
-  <section class="top container">
+  <section data-aos="fade-up" class="top container">
     <div class="row align-items-end">
       <div class="col-md-6">
         <img src="/src/assets/images/use/3.jpg" class="img-fluid img-boutique" alt="" />

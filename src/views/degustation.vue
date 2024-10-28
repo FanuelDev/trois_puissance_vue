@@ -4,7 +4,7 @@
     <h2 class="text-center text-white title fw-bold">DEGUSTATION</h2>
   </div>
 
-  <section class="top container">
+  <section data-aos="fade-up" class="top container">
     <div class="row">
       <div class="col-md-6 p-4 d-flex justify-content-center">
         <div class="text-justify">

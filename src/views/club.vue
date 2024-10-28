@@ -5,7 +5,7 @@
     </div>
   </div>
 
-  <div class="container top">
+  <div data-aos="fade-up" class="container top">
     <div class="row">
       <div class="col-md-6">
         <h1 class="text-primary title">Le Club de Vins TroisPuissance</h1>

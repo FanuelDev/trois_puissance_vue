@@ -3,7 +3,7 @@
   <div class="bg-primary p-4">
     <h2 class="text-center text-white title fw-bold">BOUTIQUE</h2>
   </div>
-  <div class="top container">
+  <div data-aos="fade-up" class="top container">
     <div class="row">
       <div class="col-md-3">
         <h4 class="text-primary title">Optez pour une vie de Puissances</h4>
@@ -77,7 +77,7 @@
     </div>
   </div>
 
-  <div class="top bg-light">
+  <div data-aos="fade-up" class="top bg-light">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-7 p-5">
@@ -96,7 +96,7 @@
     </div>
   </div>
 
-  <div class="top container">
+  <div data-aos="fade-up" class="top container">
     <div class="row">
       <div class="col-md-12 mb-5">
         <h5 class="text-primary title text-center">
@@ -150,7 +150,7 @@
     </div>
   </div>
 
-  <div class="top bg-light">
+  <div data-aos="fade-up" class="top bg-light">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-7 p-5">
@@ -169,7 +169,7 @@
     </div>
   </div>
 
-  <div class="top container">
+  <div data-aos="fade-up" class="top container">
     <div class="row">
       <div class="col-md-12 mb-5">
         <h3 class="text-primary title text-center">

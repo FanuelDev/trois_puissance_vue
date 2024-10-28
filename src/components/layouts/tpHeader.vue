@@ -6,7 +6,7 @@
     <div>
       <ul class="ul-header">
         <li><router-link to="" class="title mx-2">Magazine</router-link></li>
-        <li><router-link to="" class="title mx-2">Actualité</router-link></li>
+        <li><router-link to="actualite" class="title mx-2">Actualité</router-link></li>
         <li><router-link to="" class="title mx-2">Qui sommes-nous?</router-link></li>
         <li><router-link to="" class="btn btn-primary btn-tran">EN</router-link></li>
       </ul>

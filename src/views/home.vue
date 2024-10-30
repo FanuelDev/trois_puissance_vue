@@ -40,7 +40,7 @@
   <section data-aos="fade-up" class="mt-5 bg-light">
     <div class="container py-5">
       <div class="col-md-12">
-        <carousel :items-to-show="3" :autoplay="5000">
+        <Carousel :items-to-show="3" :autoplay="5000">
           <slide>
             <div class="p-4 mx-5">
               <img src="/src/assets/images/carousel/1.jpg" class="img-fluid" alt="" />
@@ -178,7 +178,7 @@
             <navigation />
             <pagination />
           </template>
-        </carousel>
+        </Carousel>
       </div>
     </div>
   </section>
@@ -208,8 +208,8 @@
 </template>
 
 <script lang="ts">
-import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import 'vue3-carousel/dist/carousel.css'
 
 export default {
   components: {

@@ -20,7 +20,6 @@ import '/src/assets/styles/css/main.css'
 
 const app = createApp(App)
 
-
 // Initialisation d'AOS
 app.config.globalProperties.$aos = AOS.init({
     duration: 800, // Durée de l'animation

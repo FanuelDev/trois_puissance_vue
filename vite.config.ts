@@ -14,12 +14,10 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     }
   },
   build: {
-    rollupOptions: {
-      external: ['vue3-carousel'],
-    },
+    outDir: 'dist',
   },
 })

@@ -112,7 +112,7 @@ body {
   padding-bottom: 5px;
   padding-left: 30px !important;
   padding-right: 30px !important;
-  font-family: "Tinos", sans-serif;
+  font-family: "Time New Roman", serif;
 }
 .btn.btn-tran {
   width: 40px !important;
@@ -360,6 +360,19 @@ body {
 .input:focus {
   border: none;
   box-shadow: none;
+}
+
+.input-group-text {
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+}
+.input-group-text.s2 {
+  border-bottom: 1px solid #8d4e56 !important;
+  background-color: #fff !important;
 }
 
 .img-prod {

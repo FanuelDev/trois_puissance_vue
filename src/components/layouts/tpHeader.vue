@@ -24,7 +24,10 @@
         <li><router-link to="boutique" class="title">Boutique</router-link></li>
       </ul>
       <ul class="ul-menu">
-        <li>
+        <li class="input-group">
+          <span class="input-group-text">
+            <img src="/src/assets/icons/s1.png" alt="Icon" style="width: 20px; height: 20px" />
+          </span>
           <input type="text" placeholder="Recherche ..." class="forn-control input-search" />
         </li>
         <li>

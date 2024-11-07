@@ -7,7 +7,10 @@
   </div>
   <div class="container top">
     <div class="row">
-      <div class="col-md-12 my-4" data-aos="fade-up">
+      <div class="input-group col-md-12 my-4" data-aos="fade-up">
+        <span class="input-group-text s2">
+          <img src="/src/assets/icons/s2.png" alt="Icon" style="width: 20px; height: 20px" />
+        </span>
         <input type="search" placeholder="Recherche ..." class="form-control input1" />
       </div>
     </div>
@@ -17,15 +20,25 @@
       <div class="col-md-4" data-aos="fade-up" data-aos-duration="1200">
         <div class="bg-light p-4 mb-2">
           <h3 class="title text-primary">Producteur</h3>
-          <input
-            type="search"
-            placeholder="Recherche dans 1739 producteurs"
-            class="form-control input1"
-          />
+          <div class="input-group">
+            <input
+              type="search"
+              placeholder="Recherche dans 1739 producteurs"
+              class="form-control input1"
+            />
+            <span class="input-group-text s2">
+              <img src="/src/assets/icons/s2.png" alt="Icon" style="width: 20px; height: 20px" />
+            </span>
+          </div>
         </div>
         <div class="bg-light p-4 mb-2">
           <h3 class="title text-primary">Pays</h3>
-          <input type="search" placeholder="Recherche dans 32 pays" class="form-control input1" />
+          <div class="input-group">
+            <input type="search" placeholder="Recherche dans 32 pays" class="form-control input1" />
+            <span class="input-group-text s2">
+              <img src="/src/assets/icons/s2.png" alt="Icon" style="width: 20px; height: 20px" />
+            </span>
+          </div>
           <div class="my-4">
             <div class="d-flex justify-content-start my-2">
               <div class="bg-white p-3 pe-5 d-flex justify-content-start align-items-center">
@@ -69,19 +82,35 @@
         </div>
         <div class="bg-light p-4 mb-2">
           <h3 class="title text-primary">Région</h3>
-          <input
-            type="search"
-            placeholder="Recherche dans 1739 régions"
-            class="form-control input1"
-          />
+          <div class="input-group">
+            <input
+              type="search"
+              placeholder="Recherche dans 1739 régions"
+              class="form-control input1"
+            />
+            <span class="input-group-text s2">
+              <img src="/src/assets/icons/s2.png" alt="Icon" style="width: 20px; height: 20px" />
+            </span>
+          </div>
         </div>
         <div class="bg-light p-4 mb-2">
           <h3 class="title text-primary">Appellation</h3>
-          <input type="search" placeholder="Recherche ..." class="form-control input1" />
+          <div class="input-group">
+            <input type="search" placeholder="Recherche ..." class="form-control input1" />
+            <span class="input-group-text s2">
+              <img src="/src/assets/icons/s2.png" alt="Icon" style="width: 20px; height: 20px" />
+            </span>
+          </div>
         </div>
         <div class="bg-light p-4 mb-2">
           <h3 class="title text-primary">Raisin</h3>
-          <input type="search" placeholder="Recherche ..." class="form-control input1" />
+
+          <div class="input-group">
+            <input type="search" placeholder="Recherche ..." class="form-control input1" />
+            <span class="input-group-text s2">
+              <img src="/src/assets/icons/s2.png" alt="Icon" style="width: 20px; height: 20px" />
+            </span>
+          </div>
           <div class="my-4">
             <div class="d-flex justify-content-start my-2">
               <div class="bg-white p-3 pe-5 d-flex justify-content-start align-items-center">

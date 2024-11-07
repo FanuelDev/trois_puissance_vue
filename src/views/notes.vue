@@ -29,7 +29,15 @@
                   <button class="btn btn-primary">Spiritueux</button>
                 </div>
               </div>
-              <div class="col-md-12 my-4" data-aos="fade-up">
+
+              <div class="input-group col-md-12 my-4" data-aos="fade-up">
+                <span class="input-group-text s2">
+                  <img
+                    src="/src/assets/icons/s2.png"
+                    alt="Icon"
+                    style="width: 20px; height: 20px"
+                  />
+                </span>
                 <input type="search" placeholder="Recherche ..." class="form-control input1" />
               </div>
             </div>
@@ -43,7 +51,9 @@
             <div class="row align-item-center">
               <div class="col-md-6">
                 <h5 class="text-white title" data-aos="fade-up">Recherche de vin</h5>
-                <p class="text-white" data-aos="fade-up">Dis-mois qui tu est et je te dirai quel vin il te faut</p>
+                <p class="text-white" data-aos="fade-up">
+                  Dis-mois qui tu est et je te dirai quel vin il te faut
+                </p>
                 <button class="btn btn-outline-light" data-aos="fade-up">Traiter</button>
               </div>
               <div class="col-md-6">

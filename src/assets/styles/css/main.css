@@ -89,6 +89,19 @@ body {
 .ul-menu li a:hover {
   color: #fff;
 }
+@media screen and (max-width: 1280px) {
+  .ul-menu li {
+    margin-right: 20px;
+  }
+  .ul-menu li a {
+    font-size: 14px !important;
+    text-decoration: none;
+    color: #fff;
+  }
+  .ul-menu li a:hover {
+    color: #fff;
+  }
+}
 
 .bg-primary {
   background-color: #8d4e56 !important;
@@ -322,7 +335,7 @@ body {
 }
 
 .border-white {
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #ccc;
 }
 
 .ul {
@@ -464,6 +477,14 @@ body {
   background-position: 50% 75%;
 }
 
+.banner3 {
+  width: 100%;
+  height: 35vh;
+  background-image: url("/src/assets/images/banner/banner4.jpg");
+  background-size: cover;
+  background-position: 50% 75%;
+}
+
 .bg-banner {
   width: 100%;
   height: 35vh;
@@ -512,16 +533,16 @@ hr {
 }
 
 .rond {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   border-radius: 50px;
 }
 .rond.or {
-  background-color: #FECC2E;
+  background-color: #fecc2e;
 }
 .rond.argent {
-  background-color: #DEDEDE;
+  background-color: #dedede;
 }
 .rond.bronze {
-  background-color: #D97D16;
+  background-color: #d97d16;
 }/*# sourceMappingURL=main.css.map */

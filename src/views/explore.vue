@@ -1,16 +1,16 @@
 <template>
   <div class="banner1"></div>
 
-  <section data-aos="fade-up" class="bg-white">
+  <section class="bg-white">
     <div class="container py-5">
-      <h2 class="text-center title fw-bold">EXPLOREZ L'ART DU VIN</h2>
-      <p class="text-center">Derniers avis premium</p>
+      <h2 class="text-center title fw-bold" data-aos="fade-up">EXPLOREZ L'ART DU VIN</h2>
+      <p class="text-center" data-aos="fade-up" data-aos-duration="1200">Derniers avis premium</p>
       <div class="row">
         <div class="col-md-10 offset-md-1">
           <div class="container my-5">
             <div class="row">
               <div class="col-md-4 mt-4">
-                <div class="bg-primary p-4">
+                <div class="bg-primary p-4" data-aos="fade-up" data-aos-duration="1200">
                   <div class="border-whiter">
                     <img src="/src/assets/images/explor/1.jpg" class="img-fluid" alt="" />
                   </div>
@@ -24,7 +24,7 @@
                 </div>
               </div>
               <div class="col-md-4 mt-4">
-                <div class="bg-primary p-4">
+                <div class="bg-primary p-4" data-aos="fade-up" data-aos-duration="1400">
                   <div class="border-whiter">
                     <img src="/src/assets/images/explor/2.jpg" class="img-fluid" alt="" />
                   </div>
@@ -38,7 +38,7 @@
                 </div>
               </div>
               <div class="col-md-4 mt-4">
-                <div class="bg-primary p-4">
+                <div class="bg-primary p-4" data-aos="fade-up" data-aos-duration="1600">
                   <div class="border-whiter">
                     <img src="/src/assets/images/explor/3.jpg" class="img-fluid" alt="" />
                   </div>
@@ -52,7 +52,7 @@
                 </div>
               </div>
               <div class="col-md-4 mt-4">
-                <div class="bg-primary p-4">
+                <div class="bg-primary p-4" data-aos="fade-up" data-aos-duration="1200">
                   <div class="border-whiter">
                     <img src="/src/assets/images/explor/4.jpg" class="img-fluid" alt="" />
                   </div>
@@ -67,7 +67,7 @@
               </div>
 
               <div class="col-md-4 mt-4">
-                <div class="bg-primary p-4">
+                <div class="bg-primary p-4" data-aos="fade-up" data-aos-duration="1200">
                   <div class="border-whiter">
                     <img src="/src/assets/images/explor/1.jpg" class="img-fluid" alt="" />
                   </div>
@@ -81,7 +81,7 @@
                 </div>
               </div>
               <div class="col-md-4 mt-4">
-                <div class="bg-primary p-4">
+                <div class="bg-primary p-4" data-aos="fade-up" data-aos-duration="1200">
                   <div class="border-whiter">
                     <img src="/src/assets/images/explor/2.jpg" class="img-fluid" alt="" />
                   </div>
@@ -95,7 +95,7 @@
                 </div>
               </div>
               <div class="col-md-4 mt-4">
-                <div class="bg-primary p-4">
+                <div class="bg-primary p-4" data-aos="fade-up" data-aos-duration="1200">
                   <div class="border-whiter">
                     <img src="/src/assets/images/explor/3.jpg" class="img-fluid" alt="" />
                   </div>
@@ -109,7 +109,7 @@
                 </div>
               </div>
               <div class="col-md-4 mt-4">
-                <div class="bg-primary p-4">
+                <div class="bg-primary p-4" data-aos="fade-up" data-aos-duration="1200">
                   <div class="border-whiter">
                     <img src="/src/assets/images/explor/1.jpg" class="img-fluid" alt="" />
                   </div>
@@ -123,7 +123,7 @@
                 </div>
               </div>
               <div class="col-md-4 mt-4">
-                <div class="bg-primary p-4">
+                <div class="bg-primary p-4" data-aos="fade-up" data-aos-duration="1200">
                   <div class="border-whiter">
                     <img src="/src/assets/images/explor/2.jpg" class="img-fluid" alt="" />
                   </div>

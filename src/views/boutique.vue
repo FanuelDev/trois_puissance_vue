@@ -1,7 +1,7 @@
 <template>
   <div class="banner1"></div>
   <div class="bg-primary p-4">
-    <h2 class="text-center text-white title fw-bold">BOUTIQUE</h2>
+    <h2 class="text-center text-white title fw-bold" data-aos="zoom-in">BOUTIQUE</h2>
   </div>
   <div data-aos="fade-up" class="top container">
     <div class="row">

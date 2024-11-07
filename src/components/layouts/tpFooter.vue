@@ -1,5 +1,5 @@
 <template>
-  <footer class="top">
+  <footer class="top" data-aos="fade-up">
     <div class="d-flex p-3 justify-content-end bg-primary">
       <button class="btn btn-light btn-tran">
         <i class="fa fa-chevron-up" aria-hidden="true"></i>

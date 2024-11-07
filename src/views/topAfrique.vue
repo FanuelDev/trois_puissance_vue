@@ -1,18 +1,20 @@
 <template>
   <div class="banner1"></div>
   <div class="top">
-    <h1 class="text-center text-primary title h1 fw-bold">TROIS PUISSANCES TOP AFRIQUE</h1>
+    <h1 class="text-center text-primary title h1 fw-bold" data-aos="fade-up">
+      TROIS PUISSANCES TOP AFRIQUE
+    </h1>
   </div>
   <div class="container top">
     <div class="row">
-      <div class="col-md-12 my-4">
+      <div class="col-md-12 my-4" data-aos="fade-up">
         <input type="search" placeholder="Recherche ..." class="form-control input1" />
       </div>
     </div>
   </div>
   <div class="container mt-5">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="fade-up" data-aos-duration="1200">
         <div class="bg-light p-4 mb-2">
           <h3 class="title text-primary">Producteur</h3>
           <input
@@ -196,7 +198,7 @@
           <button class="btn btn-lg btn-primary">REINITIALISER LES FILTRES</button>
         </div>
       </div>
-      <div class="col-md-8 brd-left">
+      <div class="col-md-8 brd-left" data-aos="fade-up" data-aos-duration="1500">
         <div>
           <h2 class="text-primary title fw-bold">TOP AFRIQUE</h2>
           <div class="d-flex justify-content-between align-item-center">

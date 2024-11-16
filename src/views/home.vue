@@ -45,7 +45,6 @@
         <swiper
           ref="swiperRef"
           :slides-per-view="3"
-          :space-between="20"
           :loop="true"
           navigation
           pagination
@@ -222,5 +221,4 @@ export default defineComponent({
   components: { Swiper, SwiperSlide }
 })
 </script>
-  
   

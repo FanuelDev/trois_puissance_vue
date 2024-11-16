@@ -65,7 +65,7 @@
             </div>
             <div class="mb-5 mt-3">
               <p class="text-white">
-                Inscrivez-vous pour connaitre les nouveautés et offres exclusives Trois Puissance
+                Inscrivez-vous pour connaitre les nouveautés et offres exclusives Trois Puissances
                 utilisera vos données personnelles, comme précisé dans notre politique de
                 confidentialité.
               </p>

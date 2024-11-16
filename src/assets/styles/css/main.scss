@@ -133,9 +133,7 @@ body {
   &.btn-tran {
     width: 40px !important;
     height: 40px !important;
-    padding: 0 !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding: 7px !important;
   }
 
   &.btn-primary {
@@ -143,7 +141,7 @@ body {
     border-color: $primary;
     border-radius: 0px;
     color: $white !important;
-    font-weight: 600;
+    font-weight: 500;
     transition: all ease-in-out 0.5s;
 
     &:hover {
@@ -204,6 +202,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.auth-banner {
+  width: 70%;
+  min-height: 100%;
+  background-image: url('/src/assets/images/use/19.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+
+.a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.w-auth {
+  width: 25% !important;
+  padding: 20px;
+  height: 90vh !important;
 }
 
 .text-light {
@@ -411,6 +432,14 @@ body {
     border-bottom: 1px solid $primary !important;
     background-color: $white !important;
   }
+}
+
+.swiper-button-next {
+  color: $primary !important;
+}
+
+.swiper-button-prev {
+  color: $primary !important;
 }
 
 .img-prod {

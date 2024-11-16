@@ -9,7 +9,7 @@
     <div class="row">
       <div class="col-md-6">
         <h1 class="text-primary title" data-aos="fade-up" data-aos-duration="1200">
-          Le Club de Vins TroisPuissance
+          Le Club de Vins TroisPuissances
         </h1>
         <div class="mt-5 text-justify" data-aos="fade-up" data-aos-duration="1200">
           <p>

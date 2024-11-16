@@ -1,9 +1,9 @@
 <template>
   <div class="d-flex justify-content-between">
     <div class="my-5 mx-4 w-auth">
-      <div class="text-center">
+      <div class="d-flex justify-content-start">
         <router-link to="/">
-          <img src="/src/assets/images/logo/logo.png" class="img-logo" alt="" />
+          <img src="/src/assets/images/logo/1.png" class="img-logo" alt="" />
         </router-link>
       </div>
       <div class="my-5">
@@ -42,7 +42,7 @@
         </div>
         <div class="mt-5 text-center">
           <router-link to="/auth/login" class="a"
-            ><small>J'ai déja de compte, se connecter.</small></router-link
+            ><small>J'ai déja de compte? se connecter.</small></router-link
           >
         </div>
       </div>

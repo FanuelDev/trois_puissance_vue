@@ -1,9 +1,9 @@
 <template>
   <div class="d-flex justify-content-between">
     <div class="top mx-4 w-auth">
-      <div>
+      <div class="d-flex justify-content-start">
         <router-link to="/">
-          <img src="/src/assets/images/logo/logo.png" class="img-logo" alt="" />
+          <img src="/src/assets/images/logo/1.png" class="img-logo" alt="" />
         </router-link>
       </div>
       <div class="my-5">
@@ -19,7 +19,9 @@
         <div class="my-4">
           <input type="password" placeholder="Mot de passe" class="form-control input1" />
           <div class="d-flex justify-content-end mt-3">
-            <small class="text-right">Mot de passe oublié</small>
+            <router-link class="a" to=""
+              ><small class="text-right">Mot de passe oublié</small></router-link
+            >
           </div>
         </div>
         <div class="my-4">
@@ -27,7 +29,7 @@
         </div>
         <div class="my-5 text-center">
           <router-link to="/auth/register" class="a"
-            ><small>J'ai pas de compte, creer en un.</small></router-link
+            ><small>J'ai pas de compte? creer un.</small></router-link
           >
         </div>
         <!-- <div class="my-4">

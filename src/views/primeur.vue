@@ -3,12 +3,12 @@
 
   <section data-aos="fade-up" class="top container">
     <div class="row">
-      <div class="col-md-12 p-4 d-flex justify-content-center">
-        <div class="text-center">
+      <div class="col-md-6 p-4 d-flex justify-content-center">
+        <div class="text-justify">
           <h1 class="title text-primary fw-bold" data-aos="fade-up" data-aos-duration="1000">
             PRIMEURS
           </h1>
-          <p class="text-center" data-aos="fade-up" data-aos-duration="1500">
+          <p data-aos="fade-up" data-aos-duration="1500">
             <strong>Éveillez vos Sens avec les Primeurs </strong><br />
 
             Bienvenue dans l’univers des primeurs, un voyage sensoriel qui ravira les passionnés de
@@ -63,22 +63,47 @@
           </div>
         </div>
       </div>
-      <div class="col-md-8 offset-md-2 my-4">
-        <iframe
-          data-aos="zoom-in-up"
-          width="100%"
-          height="415"
-          src="https://www.youtube.com/embed/7oZaOgkXKhs?si=zmPu0hgVtn-ZPhMy"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+      <div class="col-md-6">
+        <div class="extra">
+          <img
+            src="/src/assets/images/use/p1.jpg"
+            class="img img-fluid"
+            data-aos="zoom-in-up"
+            alt=""
+          />
+          <div class="brd"></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="extra1">
+          <img
+            src="/src/assets/images/use/p2.jpg"
+            class="img img-fluid"
+            data-aos="zoom-in-up"
+            alt=""
+          />
+          <div class="brd"></div>
+        </div>
+      </div>
+      <div class="col-md-5 my-5">
+        <div class="extra1">
+          <iframe
+            class="img"
+            data-aos="zoom-in-up"
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/7oZaOgkXKhs?si=zmPu0hgVtn-ZPhMy"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <div class="brd"></div>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
-<script>
-</script>
+<script></script>

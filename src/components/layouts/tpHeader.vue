@@ -1,13 +1,13 @@
 <template>
-  <div class="d-flex justify-content-between align-items-center container mt-4">
+  <div class="d-flex justify-content-between align-items-center container mt-4" id="top">
     <router-link to="/">
       <img src="/src/assets/images/logo/logo.png" class="img-logo" alt="" />
     </router-link>
     <div>
       <ul class="ul-header">
-        <li><router-link to="" class="title mx-2">Magazine</router-link></li>
-        <li><router-link to="actualite" class="title mx-2">Actualité</router-link></li>
-        <li><router-link to="" class="title mx-2">Qui sommes-nous?</router-link></li>
+        <li><router-link to="" class="title mx-4">Magazine</router-link></li>
+        <li><router-link to="actualite" class="title mx-4">Actualité</router-link></li>
+        <li><router-link to="" class="title mx-4">Qui sommes-nous?</router-link></li>
         <li><router-link to="" class="btn btn-primary btn-tran">EN</router-link></li>
       </ul>
     </div>
@@ -40,5 +40,4 @@
   </div>
 </template>
 
-<script>
-</script>
+<script></script>

@@ -35,7 +35,7 @@ body {
 }
 
 .img-user {
-  width: 25px;
+  width: 45px;
 }
 
 .img-logo {
@@ -225,6 +225,8 @@ body {
   width: 25% !important;
   padding: 20px;
   height: 90vh !important;
+  display: flex;
+  align-items: center;
 }
 
 .text-light {
@@ -402,7 +404,7 @@ body {
 
     a {
       color: $lighter;
-      font-size: 12px !important;
+      font-size: 16px !important;
       text-decoration: none;
     }
   }
@@ -505,7 +507,7 @@ body {
   padding-top: 0px;
   margin-right: 15px;
   padding-bottom: 0px;
-  min-width: 19vw;
+  min-width: 17vw;
   background-color: transparent;
   color: $white;
   border: none;

@@ -20,9 +20,9 @@
           allowfullscreen
         ></iframe>
         <div class="text-justify mt-4">
-          <h1 class="title text-primary fw-bold" data-aos="fade-up" data-aos-duration="1000">
+          <!-- <h1 class="title text-primary fw-bold" data-aos="fade-up" data-aos-duration="1000">
             PRIMEURS
-          </h1>
+          </h1> -->
           <p
             class="mt-4"
             style="font-size: 16px !important"

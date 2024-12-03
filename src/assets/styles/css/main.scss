@@ -356,6 +356,29 @@ body {
   }
 }
 
+.extra2 {
+  position: relative;
+  height: 450px;
+
+  .brd {
+    width: 75%;
+    height: 380px;
+    border: 1px solid $primary;
+    position: absolute;
+    z-index: 1 !important;
+  }
+
+  .img {
+    width: 75%;
+    position: absolute;
+    z-index: 2 !important;
+    object-fit: cover;
+    height: 380px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
+
 .text-primary {
   color: $primary !important;
 }
@@ -414,11 +437,18 @@ body {
   border-radius: 0;
   padding-top: 8px;
   padding-bottom: 8px;
-  border: none;
+  background-color: transparent !important;
+  color: #fff;
 
   &:focus {
-    border: none;
+    border-color: #fff;
     box-shadow: none;
+    color: #fff;
+  }
+
+  &::placeholder {
+    color: $white;
+    opacity: 0.6;
   }
 }
 

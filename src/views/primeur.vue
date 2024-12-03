@@ -1,15 +1,37 @@
 <template>
   <div class="banner1"></div>
+  <div class="bg-primary p-4">
+    <h2 class="text-center text-white title fw-bold" data-aos="zoom-in">PRIMEURS</h2>
+  </div>
 
   <section data-aos="fade-up" class="top container">
     <div class="row">
-      <div class="col-md-6 p-4 d-flex justify-content-center">
-        <div class="text-justify">
+      <div class="col-md-6">
+        <iframe
+          class="img"
+          data-aos="zoom-in-up"
+          width="100%"
+          style="height: 550px !important"
+          src="https://www.youtube.com/embed/7oZaOgkXKhs?si=zmPu0hgVtn-ZPhMy"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+        <div class="text-justify mt-4">
           <h1 class="title text-primary fw-bold" data-aos="fade-up" data-aos-duration="1000">
             PRIMEURS
           </h1>
-          <p data-aos="fade-up" data-aos-duration="1500">
-            <strong>Éveillez vos Sens avec les Primeurs </strong><br />
+          <p
+            class="mt-4"
+            style="font-size: 16px !important"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            <strong class="text-primary title" style="font-size: 20px"
+              >Éveillez vos Sens avec les Primeurs </strong
+            ><br />
 
             Bienvenue dans l’univers des primeurs, un voyage sensoriel qui ravira les passionnés de
             vin. Ici, chaque bouteille raconte une histoire, chaque gorgée vous transporte au cœur
@@ -17,7 +39,7 @@
             portes de la découverte, vous permettant d'accéder à des millésimes soigneusement
             sélectionnés bien avant leur mise en vente.
 
-            <br /><br /><strong
+            <br /><br /><strong class="text-primary title" style="font-size: 20px"
               >Pourquoi Choisir les Primeurs ? Un Privilège pour les Amateurs Éclairés</strong
             >
             <br />
@@ -30,7 +52,7 @@
             le déguster. Les primeurs sont un véritable voyage dans le temps, de la vigne à votre
             verre, vous permettant d'enrichir votre cave de trésors rares et précieux.
 
-            <br /><br /><strong
+            <br /><br /><strong class="text-primary title" style="font-size: 20px"
               >Un Partenaire de Confiance : Travaillons Main dans la Main avec les Vignerons</strong
             >
             <br />
@@ -43,7 +65,7 @@
             choisissez est le reflet du savoir-faire, de la passion et du dévouement des vignerons,
             un hommage à leur terroir et à leur engagement.
 
-            <br /><br /><strong
+            <br /><br /><strong class="text-primary title" style="font-size: 20px"
               >Un Service Exclusif pour Nos Abonnés : Une Communauté de Passionnés</strong
             >
             <br />
@@ -56,14 +78,15 @@
             d’autres amateurs éclairés et faire grandir votre cave avec des bouteilles d’exception.
             Rejoignez-Nous et Vivez l’Exception des Primeurs !
           </p>
-          <div class="mt-4">
+          <!-- <div class="mt-4">
             <button class="btn btn-primary" data-aos="fade-up" data-aos-duration="1500">
               Connexion <i class="fa fa-user mx-2" aria-hidden="true"></i>
             </button>
-          </div>
+          </div> -->
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
         <div class="extra">
           <img
             src="/src/assets/images/use/p1.jpg"
@@ -73,9 +96,8 @@
           />
           <div class="brd"></div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="extra1">
+
+        <div class="extra2">
           <img
             src="/src/assets/images/use/p2.jpg"
             class="img img-fluid"
@@ -85,23 +107,15 @@
           <div class="brd"></div>
         </div>
       </div>
-      <div class="col-md-5 my-5">
-        <div class="extra1">
-          <iframe
-            class="img"
-            data-aos="zoom-in-up"
-            width="100%"
-            height="400"
-            src="https://www.youtube.com/embed/7oZaOgkXKhs?si=zmPu0hgVtn-ZPhMy"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-          <div class="brd"></div>
-        </div>
-      </div>
+    </div>
+
+    <div class="bg-light a container p-4 mt-5">
+      <a href="/auth/login" class="a">
+        <h1 class="text-primary title text-center">
+          Connectez-vous
+          <i class="fa fa-user mx-2" aria-hidden="true" style="font-size: 30px"></i>
+        </h1>
+      </a>
     </div>
   </section>
 </template>

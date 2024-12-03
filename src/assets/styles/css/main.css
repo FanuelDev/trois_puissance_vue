@@ -320,6 +320,28 @@ body {
   margin-left: 50px;
 }
 
+.extra2 {
+  position: relative;
+  height: 450px;
+}
+.extra2 .brd {
+  width: 75%;
+  height: 380px;
+  border: 1px solid #8d4e56;
+  position: absolute;
+  z-index: 1 !important;
+}
+.extra2 .img {
+  width: 75%;
+  position: absolute;
+  z-index: 2 !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 380px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
 .text-primary {
   color: #8d4e56 !important;
 }
@@ -377,11 +399,21 @@ body {
   border-radius: 0;
   padding-top: 8px;
   padding-bottom: 8px;
-  border: none;
+  background-color: transparent !important;
+  color: #fff;
 }
 .input:focus {
-  border: none;
+  border-color: #fff;
   box-shadow: none;
+  color: #fff;
+}
+.input::-moz-placeholder {
+  color: #fff;
+  opacity: 0.6;
+}
+.input::placeholder {
+  color: #fff;
+  opacity: 0.6;
 }
 
 .input-group-text {

@@ -180,8 +180,8 @@ body {
 
 .auth-banner {
   width: 70%;
-  min-height: 100%;
-  background-image: url("/src/assets/images/use/19.jpg");
+  height: 100vh;
+  background-image: url("../../images/use/19.jpg");
   background-size: cover;
   background-position: 50%;
 }
@@ -197,7 +197,7 @@ body {
 .w-auth {
   width: 25% !important;
   padding: 20px;
-  height: 90vh !important;
+  height: 100vh !important;
   display: flex;
   align-items: center;
 }

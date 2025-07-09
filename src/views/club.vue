@@ -155,53 +155,46 @@
 
     <div class="bg-light container p-4 mt-5" data-aos="fade-up" data-aos-duration="1200">
       <div class="row py-5">
-        <form action="" class="col-md-8 offset-md-2">
+        <form class="col-md-8 offset-md-2" @submit.prevent="submitMessage">
           <div class="row">
             <div class="col-md-6 my-3 form-group">
-              <input
-                type="text"
-                class="input form-control form-control-lg px-4 py-2 text-primary"
-                placeholder="Prénoms"
-              />
+              <input v-model="form.nom" type="text" class="input3 form-control form-control-lg px-4 py-2 text-primary"
+                placeholder="Nom" />
+              <small class="text-danger" v-if="errors.nom">{{ errors.nom }}</small>
             </div>
+
             <div class="col-md-6 my-3 form-group">
-              <input
-                type="text"
-                class="input form-control form-control-lg px-4 py-2 text-primary"
-                placeholder="Nom"
-              />
+              <input v-model="form.prenoms" type="text"
+                class="input3 form-control form-control-lg px-4 py-2 text-primary" placeholder="Prénoms" />
+              <small class="text-danger" v-if="errors.prenoms">{{ errors.prenoms }}</small>
             </div>
+
             <div class="col-md-6 my-3 form-group">
-              <input
-                type="text"
-                class="input form-control form-control-lg px-4 py-2 text-primary"
-                placeholder="Téléphone"
-              />
+              <input v-model="form.telephone" type="text"
+                class="input3 form-control form-control-lg px-4 py-2 text-primary" placeholder="Téléphone" />
+              <small class="text-danger" v-if="errors.telephone">{{ errors.telephone }}</small>
             </div>
+
             <div class="col-md-6 my-3 form-group">
-              <input
-                type="text"
-                class="input form-control form-control-lg px-4 py-2 text-primary"
-                placeholder="Société"
-              />
+              <input v-model="form.societe" type="text"
+                class="input3 form-control form-control-lg px-4 py-2 text-primary" placeholder="Société" />
             </div>
+
             <div class="col-md-12 my-3 form-group">
-              <input
-                type="text"
-                class="input form-control form-control-lg px-4 py-2 text-primary"
-                placeholder="Mail"
-              />
+              <input v-model="form.mail" type="email" class="input3 form-control form-control-lg px-4 py-2 text-primary"
+                placeholder="Mail" />
+              <small class="text-danger" v-if="errors.mail">{{ errors.mail }}</small>
             </div>
+
             <div class="col-md-12 my-3 form-group">
-              <textarea
-                type="text"
-                rows="5"
-                class="input form-control form-control-lg px-4 py-2 text-primary"
-                placeholder="Votre message"
-              ></textarea>
+              <textarea v-model="form.message" rows="5"
+                class="input3 form-control form-control-lg px-4 py-2 text-primary"
+                placeholder="Votre message"></textarea>
+              <small class="text-danger" v-if="errors.message">{{ errors.message }}</small>
             </div>
+
             <div class="col-md-12 my-3 form-group d-flex justify-content-center">
-              <button class="btn btn-primary">ENVOYER</button>
+              <button type="submit" class="btn btn-primary">ENVOYER</button>
             </div>
           </div>
         </form>
@@ -210,4 +203,60 @@
   </div>
 </template>
 
-<script></script>
+<script lang="ts" setup>
+import { ref } from 'vue'
+
+const form = ref({
+  nom: '',
+  prenoms: '',
+  telephone: '',
+  societe: '',
+  mail: '',
+  message: ''
+})
+
+const errors = ref<{ [key: string]: string }>({})
+
+const validate = () => {
+  errors.value = {}
+
+  if (!form.value.nom) errors.value.nom = 'Le nom est requis'
+  if (!form.value.prenoms) errors.value.prenoms = 'Les prénoms sont requis'
+  if (!form.value.telephone) errors.value.telephone = 'Le téléphone est requis'
+  if (!form.value.mail) errors.value.mail = 'L’email est requis'
+  else if (!/^\S+@\S+\.\S+$/.test(form.value.mail)) errors.value.mail = 'Email invalide'
+  if (!form.value.message) errors.value.message = 'Le message est requis'
+
+  return Object.keys(errors.value).length === 0
+}
+
+const submitMessage = async () => {
+  if (!validate()) return
+
+  try {
+
+    // const response = await fetch('https://api.exemple.com/contact', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json'
+    //   },
+    //   body: JSON.stringify(form.value)
+    // })
+
+    // if (!response.ok) throw new Error('Erreur lors de l’envoi')
+
+    alert('Message envoyé avec succès')
+    form.value = {
+      nom: '',
+      prenoms: '',
+      telephone: '',
+      societe: '',
+      mail: '',
+      message: ''
+    }
+  } catch (error) {
+    console.error(error)
+    alert('Une erreur est survenue lors de l’envoi du message.')
+  }
+}
+</script>

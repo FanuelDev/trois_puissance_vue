@@ -16,6 +16,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "ant-design-vue": "^4.2.6",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "element-plus": "^2.8.4",

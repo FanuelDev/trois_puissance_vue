@@ -12,6 +12,9 @@ import 'element-plus/dist/index.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import Antd from 'ant-design-vue'
+// import 'ant-design-vue/es/style/index.css'
+
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap';
@@ -29,5 +32,6 @@ app.config.globalProperties.$aos = AOS.init({
 app.use(createPinia())
 app.use(ElementPlus)
 app.use(router)
+app.use(Antd)
 
 app.mount('#app')

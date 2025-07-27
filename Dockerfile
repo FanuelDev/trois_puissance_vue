@@ -24,7 +24,7 @@ WORKDIR /app
 
 COPY . .
 
-COPY env.example .env
+# COPY env.example .env
 
 RUN npm install --force
 
